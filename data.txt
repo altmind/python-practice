@@ -1,0 +1,8 @@
+6 six
+1 one
+11 eleven
+0 zero
+7 seven
+2 two
+66 sixty-six
+70 seventy

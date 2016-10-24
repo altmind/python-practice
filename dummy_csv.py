@@ -4,7 +4,8 @@ import re
 
 split_re = re.compile("[,\t]")
 
+
 # handling of proper file closing is up to enclosing code
 def reader(fh):
-    for line in fh:
-        yield [str(x).strip() for x in split_re.split(line)]
+  for line in fh:
+    yield [str(x).strip() for x in split_re.split(line)]
